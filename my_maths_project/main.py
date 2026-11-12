@@ -1,7 +1,11 @@
 from math_tools import square_calculater,cube_calculator
 
-a1=square_calculater(2)
-print (a1)
+def main():
+    print("-----starting main application ------")
+    num=5
+    square=square_calculater(num)
+    cube=cube_calculator(num)
 
-a2=cube_calculator(3)
-print (a2)
+    print(f"the square of {num} is {square}")
+    print(f"the cube of {num} is {cube}")
+    return main

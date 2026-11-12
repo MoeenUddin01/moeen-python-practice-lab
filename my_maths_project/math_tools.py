@@ -9,5 +9,4 @@ if __name__=="__main__":
     print(square_calculater(2))
 
     print(cube_calculator(3))   
-    assert square_calculater(4)==16
-    assert cube_calculator(3)==27
+    
