@@ -1,0 +1,5 @@
+KM_TO_MILES = 0.621371
+
+C_TO_F_MULTIPLIER = 9 / 5
+
+SUPPORTED_CONVERSIONS = ["km_to_miles", "c_to_f"]
