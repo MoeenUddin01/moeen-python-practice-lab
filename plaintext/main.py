@@ -1,9 +1,9 @@
 # main.py
 from config import APP_NAME, VERSION
-from loggers import setup_logger
+from loggers import setup_loggers
 from text_processer import TextProcessor
 
-logger = setup_logger("MainApp")
+logger = setup_loggers("MainApp")
 
 
 def main():
